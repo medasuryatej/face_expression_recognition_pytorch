@@ -3,14 +3,17 @@ PyTorch CNN implementation of Face Expression Recognition Dataset from Kaggle.
 
 Dataset: https://www.kaggle.com/jonathanoheix/face-expression-recognition-dataset
 
-Class Distribution:
-Angry : 3993
-Disgust: 436
-Fear: 4103
-Happy: 7164
-Neutral: 4982
-Sad: 4938
-Surprise: 3205
+Class Distribution: <br/>
+Angry : 3993 <br/>
+Disgust: 436 <br/>
+Fear: 4103 <br/>
+Happy: 7164 <br/>
+Neutral: 4982 <br/>
+Sad: 4938 <br/>
+Surprise: 3205 <br/>
+
+![class_distb](https://user-images.githubusercontent.com/14051949/150709223-07234955-68b4-4046-8706-1f84592e5046.png)
+
 
 Model Architecture: <br/>
 Conv1 [Conv (o/p: 512, 48, 48), BatchNorm, ReLU, MaxPool (o/p: 512, 24, 24)] <br/>
@@ -23,3 +26,4 @@ Learning Rate: 0.001 <br/>
 Optimizer: Adam <br/>
 Epochs: 5 <br/>
 
+![accuracy_scores](https://user-images.githubusercontent.com/14051949/150709279-a240e42c-f745-4931-9f40-26591601c91b.png)
